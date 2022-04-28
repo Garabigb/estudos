@@ -10,10 +10,76 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body style="margin-bottom: 200px; padding: 16px;">
+    <!--cabeçalho-->
+    <h1>cabeçalho 1</h1>
+    <h2>cabeçalho 2</h2>
+    <h3>cabeçalho 3</h3>
+    <h4>cabeçalho 4</h4>
+    <h5>cabeçalho 5</h5>
+    <h6>cabeçalho 6</h6>
 
-    <h1>Hello, world!</h1>
+    <!--display-->
+    <h1 class="display-1">display 1</h1>
+    <h2 class="display-2">display 2</h2>
+    <h3 class="display-3">display 3</h3>
+    <h4 class="display-4">display 4</h4>
+    <h5 class="display-5">display 5</h5>
+    <h6 class="display-6">display 6</h6>
 
+    <!--paragrafo-->
+    <p>Sed interdum ac nibh vel auctor. Aenean risus nulla, sodales ac mauris sit amet, luctus mattis tortor. Suspendisse sagittis tellus in risus viverra, quis dictum nibh vehicula. Aliquam imperdiet tellus est, in fermentum dui tempus eu. Mauris vitae velit vitae leo blandit venenatis quis sed odio. In molestie dolor in gravida accumsan. Aenean accumsan vitae dolor et porttitor. Aliquam varius ex vel nisl pellentesque, et ultrices leo facilisis. Nullam euismod ante nec ex vulputate, consequat laoreet mauris imperdiet. Ut velit neque, lacinia malesuada semper sed, dictum quis justo.</p>
+    
+    <!--lead-->
+    <p class="lead">Sed interdum ac nibh vel auctor. Aenean risus nulla, sodales ac mauris sit amet, luctus mattis tortor. Suspendisse sagittis tellus in risus viverra, quis dictum nibh vehicula. Aliquam imperdiet tellus est, in fermentum dui tempus eu. Mauris vitae velit vitae leo blandit venenatis quis sed odio. In molestie dolor in gravida accumsan. Aenean accumsan vitae dolor et porttitor. Aliquam varius ex vel nisl pellentesque, et ultrices leo facilisis. Nullam euismod ante nec ex vulputate, consequat laoreet mauris imperdiet. Ut velit neque, lacinia malesuada semper sed, dictum quis justo.</p>
+    
+    <!--monospace-->
+    <p class="text-monospace">Sed interdum ac nibh vel auctor. Aenean risus nulla, sodales ac mauris sit amet, luctus mattis tortor. Suspendisse sagittis tellus in risus viverra, quis dictum nibh vehicula. Aliquam imperdiet tellus est, in fermentum dui tempus eu. Mauris vitae velit vitae leo blandit venenatis quis sed odio. In molestie dolor in gravida accumsan. Aenean accumsan vitae dolor et porttitor. Aliquam varius ex vel nisl pellentesque, et ultrices leo facilisis. Nullam euismod ante nec ex vulputate, consequat laoreet mauris imperdiet. Ut velit neque, lacinia malesuada semper sed, dictum quis justo.</p>
+    
+    <!--classe de estilos-->
+    <p class="font-weight-bold">Texto Negrito</p>
+    <p class="font-weight-normal">Texto normal</p>
+    <p class="font-italic">Texto Itálico</p>
+
+    <!--transformação do texto-->
+    <p class="text-uppercase">Texto Maiúsculo</p>
+    <p class="text-lowercase">Texto Minúsculo</p>
+    <p class="text-capitalize">primeira maiúscula</p>
+
+    <!--Alinhamentos-->
+    <p class="text-right">Texto a direita</p>
+    <p class="text-left">Texto a esquerda</p>
+    <p class="text-center">Texto centralizado</p>
+
+    <!--Bloco de citação-->
+    <blockquote class="blockquote">
+      <p>Aliquam varius ex vel nisl pellentesque, et ultrices leo facilisis.</p>
+    </blockquote>
+
+    <!--Bloco de citação com foot-->
+    <blockquote class="blockquote text-right">
+      <p>Vestibulum tristique ligula cursus, bibendum ligula ac, semper nibh. Morbi placerat finibus metus et tristique. Nulla facilisi. Ut suscipit non enim eu porta. In rhoncus eros lorem, in pretium dolor convallis vel. Duis vitae ex eget sem varius maximus. Pellentesque rhoncus leo nec finibus egestas. Sed luctus lectus nisi, sit amet euismod est malesuada sit amet. Curabitur augue mi, vulputate a dignissim eu, pulvinar vitae orci. Etiam elit odio, vehicula congue euismod eu, pulvinar sit amet erat. Mauris sit amet ex quis arcu porta hendrerit a eu ligula. Nam in finibus augue, at tincidunt risus. Vivamus a tempor nibh. Etiam commodo viverra lobortis.</p>
+      <footer class="blockquote-footer">Por
+        <cite>Ipsum, Lorem 2022</cite>
+      </footer>
+    </blockquote>
+
+    <!--Truncar o texto-->
+    <p class="text-truncate">Sed interdum ac nibh vel auctor. Aenean risus nulla, sodales ac mauris sit amet, luctus mattis tortor. Suspendisse sagittis tellus in risus viverra, quis dictum nibh vehicula. Aliquam imperdiet tellus est, in fermentum dui tempus eu. Mauris vitae velit vitae leo blandit venenatis quis sed odio. In molestie dolor in gravida accumsan. Aenean accumsan vitae dolor et porttitor. Aliquam varius ex vel nisl pellentesque, et ultrices leo facilisis. Nullam euismod ante nec ex vulputate, consequat laoreet mauris imperdiet. Ut velit neque, lacinia malesuada semper sed, dictum quis justo.</p>
+    
+    <!--Lista sem estilo-->
+    <ul class="list-unstyled">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <!--Lista inline-->
+    <ul class="list-inline">
+      <li class="list-inline-item">Item 1</li>
+      <li class="list-inline-item">Item 2</li>
+      <li class="list-inline-item">Item 3</li>
+    </ul>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
